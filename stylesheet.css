@@ -1,0 +1,187 @@
+/* div > img {
+     width: 100%; 
+     max-width: 600px; 
+     height: auto; 
+     border-radius: 20px;  
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
+     margin: 0 auto;  
+     display: block;   
+ } */
+ 
+ div>img
+ {
+     width: 100%; 
+     max-width: 780px; 
+     height: auto; 
+     border-radius: 10px;  
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
+     margin: 0 auto;  
+     display: block; 
+     
+     
+
+     
+ }
+ 
+.attribution {
+     font-size: 11px; text-align: center; 
+     padding-top: 20px;
+}
+     
+.attribution a {
+     color: hsl(228, 45%, 44%); }
+
+@font-face {
+     font-family: Outfit;
+     src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+     font-family: YoungSerif;
+     src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+}
+   
+.headline h1{
+     font-family: YoungSerif;
+     padding-left: 25px;
+     font-size: 46px;
+}
+.headline p{
+     font-family: Outfit;
+     padding-left: 25px;
+     
+}
+body{
+     background-color: rgb(243, 233, 222);
+     margin: 90px;
+}
+#main{
+     max-width: 800px; /* Maximum width of the container */
+     margin: 20px auto; /* Center the container */
+     background-color: #fff; /* White background for the card */
+     border-radius: 10px; /* Rounded corners */
+     padding: 35px; /* Padding inside the container */
+     
+}
+
+.time{
+     background-color: rgb(255, 247, 252);
+     border-radius: 10px;
+     padding: 20px;
+
+       
+}
+.time h4{
+     color:hsl(332, 51%, 32%);
+     font-family: Outfit;
+     margin-top: auto;
+     
+}
+
+.time .list li::marker {
+     color: hsl(332, 51%, 32%);
+}
+
+li{
+     margin-top: 20px;
+}
+
+.ingredients h2{
+     color: hsl(14, 45%, 36%);
+     font-family: YoungSerif;
+     font-weight: normal;
+      
+}
+.ingredients .list2 ::marker{
+     color: hsl(14, 45%, 36%);
+     
+}
+
+.ingredients ul {
+     padding-left: 20px;  
+     
+ }
+
+ hr{
+     color:gainsboro;
+    height: 0px;
+    margin: 20px 0;
+     
+ }
+ .instructions h2{
+     color: hsl(14, 45%, 36%);
+     font-family: YoungSerif;
+     font-weight: normal;
+      
+}
+
+.instructions .olist ::marker{
+     color: hsl(14, 45%, 36%);
+     font-weight: bold;;
+     
+}
+.instructions ol{
+     padding-left: 20px;
+     
+      
+
+}
+ 
+.instructions li{
+     font-weight: normal;
+     padding-left: 9px;
+}
+
+.Nutrition h2{
+     color: hsl(14, 45%, 36%);
+     font-family: YoungSerif;
+     font-weight: normal;
+}
+
+caption{
+     white-space: nowrap;   
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+     font-family: Outfit;
+     font-size: small;
+     text-align: left;
+
+
+}
+
+ 
+table {
+     width: 100%; /* Full width */
+     border-collapse: collapse; /* Collapse borders */
+     margin-top: 20px; /* Space above the table */
+     
+ }
+ 
+th{
+   text-align: left;
+   padding-left: 20px;
+   font-weight: normal;
+   font-size:medium;
+   font-family: Outfit;
+   color: hsl(14, 45%, 36%);
+   border-bottom: 1px solid gray;
+   border: no;
+
+}
+
+td{
+     text-align: left;
+     padding-left: 20px;
+     font-weight: normal;
+     font-size:medium;
+     font-family: Outfit;
+     color: hsl(14, 45%, 36%);
+     border-bottom: 1px solid gray;
+     border
+
+}
+ caption {
+     font-weight: normal; /* Make caption bold */
+     margin-bottom: 10px; /* Space below caption */
+ }
+ 
+ 
